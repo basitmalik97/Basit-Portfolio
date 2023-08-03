@@ -1,0 +1,357 @@
+body {
+  margin: 0;
+}
+
+/* Desktop View */
+.container {
+  background-color: white;
+  max-width: 1619px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+/* Tablet View */
+@media (max-width: 768px) {
+  .container {
+    background-color: gray;
+    width: 45%;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 400px) {
+  .container {
+    background-color: silver;
+    width: 100%;
+  }
+}
+
+header {
+  background-color: rgba(249, 249, 253, 1);
+  min-height: 118px;
+  padding-top: 20px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  font-size: 15px;
+  padding-left: 15px;
+  padding-right: 20px;
+  color: rgba(68, 88, 220, 1);
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+#myimg-buttons {
+  position: relative;
+  display: inline-block;
+}
+
+.primary_btn {
+
+  display: inline-block;
+  position: absolute;
+  top: 67%;
+  left: 19%;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 46px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+  opacity: 0.001;
+}
+
+.primary_btn.tr-bg {
+  background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #4458dc, #d0c4e9);
+  color: #222222;
+  box-shadow: none;
+  position: absolute;
+  top: 67%;
+  left: 27%;
+  opacity: 0.001;
+}
+
+.primary_btn {
+  display: inline-block;
+  color: #fff;
+  letter-spacing: 0px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 46px;
+  outline: none !important;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+  border: double 2px transparent;
+  box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
+}
+
+/* ABOUT ME */
+
+.myintro {
+  width: 600px;
+  height: 600px;
+  margin-left: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.aboutme-container {
+  display: flex;
+}
+
+.aboutme-image {
+  min-width: 400px;
+  min-height: 400px;
+  padding-left: 200px;
+}
+
+.aboutme-text {
+  min-width: 200px;
+  min-height: 200px;
+  padding-left: 200px;
+}
+
+#aboutme-heading {
+  font-size: 30px;
+  padding-left: 5px;
+}
+
+/* SERVICES SEC */
+
+#service-heading {
+  font-size: 30px;
+  text-align: center;
+}
+
+.service-offers {
+  display: flex;
+  background-color: rgba(249, 249, 253, 1);
+  justify-content: center;
+  min-width: 800px;
+  height: 500px;
+  padding-top: 100px;
+}
+
+.service-icon {
+  height: 80px;
+  min-width: 80px;
+}
+
+.ui-ux-container {
+  background-color: white;
+  height: 300px;
+  width: 170px;
+  margin-right: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 15px 45px;
+  font-size: 30px;
+}
+
+.web-container {
+  background-color: white;
+  height: 300px;
+  width: 170px;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 15px 45px;
+  padding-right: 60px;
+  padding-left: 20px;
+  font-size: 30px;
+}
+
+.ui-ux {
+  text-decoration: none;
+  color: black;
+}
+
+.ui-ux p {
+  text-align: center;
+}
+
+.web {
+  text-decoration: none;
+  color: black;
+}
+
+.web p {
+  text-align: center;
+}
+
+.ui-ux-container:hover,
+.web-container:hover {
+  color: gray;
+  opacity: 0.7;
+  box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
+}
+
+/* PROJECTS SEC */
+
+#projects-heading {
+  font-size: 30px;
+  text-align: center;
+}
+
+.recent-projects {
+  display: flex;
+  background-color: rgba(249, 249, 253, 1);
+  justify-content: center;
+  min-width: 800px;
+  height: 500px;
+  padding-top: 100px;
+}
+
+.webprojects {
+  background-color: white;
+  height: 300px;
+  width: 170px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.webdev-icon {
+  height: 300px;
+  width: 170px;
+}
+
+.designprojects {
+  background-color: white;
+  height: 300px;
+  width: 170px;
+  margin-left: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.design-icon {
+  height: 300px;
+  width: 170px;
+}
+
+.webprojects:hover,
+.designprojects:hover {
+  color: gray;
+  opacity: 0.7;
+  box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
+}
+
+/* FORM SEC */
+
+#contact-heading {
+  font-size: 30px;
+  text-align: center;
+}
+
+.formsec {
+  background-color: rgba(249, 249, 253, 1);
+  justify-content: center;
+  min-width: 800px;
+  height: 500px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+.form-container {
+  background-color: rgba(249, 249, 253, 1);
+  height: 300px;
+  width: 400px;
+  margin-left: 600px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+/* FOOTER SEC */
+
+#footer-heading {
+  color: white;
+}
+
+.footer-bottom {
+  color: white;
+}
+
+footer {
+  padding-top: 40px;
+  background-color: #6610f2;
+  height: 200px;
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
