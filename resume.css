@@ -1,0 +1,12 @@
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 80px;
+    color: rgba(68, 88, 220, 1);
+}
+
+img {
+    min-width: 600px;
+    min-height: 400px;
+    margin-left: 600px;
+}
